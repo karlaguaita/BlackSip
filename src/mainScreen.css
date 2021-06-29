@@ -1,0 +1,378 @@
+#bodyPage{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#header{
+    display: flex;
+    width:100%;
+    border-bottom: 4px solid #000;
+
+}
+#direccion{
+    margin-left:20px ;
+    font-weight: bold;
+}
+
+#formInfo{
+    margin-top: 5%;
+    display: flex;
+    flex-direction:column;
+    /* position: absolute; */
+    /* background-color: tomato; */
+    height: 70vh;
+    width: 65%;
+    border: black;
+    border: 1px solid #000;
+    margin-left: 2%;
+    
+}
+
+#products{
+    height: 80vh;
+    width: 33%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerResume{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: lightgrey;
+    justify-content: center;
+}
+
+#pResumeHeader{
+    text-align: center;
+    font-weight: 900;
+}
+
+#bodyResume{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#imgProduct{
+    height: 60px; 
+}
+#lineResume{
+    width: 100%;
+    height: 80px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+
+}
+#img{
+    width:25% ;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#descrip{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 60px ;
+}
+#pDescrip{
+    font-size:12px;
+    font-weight:inherit;
+    
+}
+#precio{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+#priceContainer{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: flex-end;
+}
+
+#pPrice{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+#smallPrice{
+    font-size: 10px;
+    font-weight: bold;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+#lineResume2{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+}
+#botonEnviar{
+    color: white;
+    background-color: red;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#subResume{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: lightgrey;
+}
+#subResume1{
+    width: 50%;
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1
+}
+
+.totalP{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: bold;
+}
+
+.totalPFinal{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: bold;
+    color: white
+}
+
+#subResume2{
+    width: 50%;
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    flex: 1
+}
+
+#totalResume{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+#total{
+    justify-content: center;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+#boxProducts{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    border: 1px solid #000;
+    flex-direction: column;
+}
+
+#line{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    border: black;
+}
+
+#lineButton{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    border: black;
+}
+
+#blockCenter{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blockForm{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    
+}
+
+#block{
+    display: flex;
+    flex: 1;
+    margin: 4px;
+}
+
+.libreta{
+    color:white;
+    background-color:black;
+    font-weight:bold;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.guardar{
+    color: white;
+    background-color: black;
+    font-weight:bold;
+    margin-left: 10px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#list{
+    max-width: 192px;
+}
+
+.check{
+    background-color: white;
+}
+
+.form-control{
+    flex: 1
+}
+
+.user{
+    color: white;
+    background-color: black;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.ReactModal__Overlay{
+    inset: 0px;
+    display: flex;
+    height: 220px;
+    width: 440px;
+    position: absolute;
+    top: calc(50vh - 110px);
+    left: calc(50vw - 220px);
+}
+
+#modalText{
+    color: red;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#modalButton{
+    width: 60%;
+    background-color: green;
+    color: white;
+}
+
+#modalDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    #img{
+        width:20%;
+    }
+    #descrip{
+        width: 60%;
+        padding: 0px 30px;
+    }
+    #precio{
+        width: 20%;
+    }
+    #imgProduct{
+        height: 30px; 
+    }
+    #pPrice{
+        font-size: 10px;
+    }
+    #smallPrice{
+        font-size: 7px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #bodyPage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #formInfo{
+        flex: 1;
+        width: 90%;
+        margin-left: 0%;
+    }
+
+    #line{
+        display: flex;
+        height: 100px;
+        width: 100%;
+        border: black;
+        flex-direction: column;
+    }
+
+    #block{
+        margin: 6px;
+    }
+
+    #blockForm{
+        width: 90%;       
+    }
+
+    #lineButton{
+        display: flex;
+        height: 35px;
+        padding-left: 2%;
+        margin-top: 6px;
+    }
+
+    .libreta{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .guardar{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #products{
+        width: 98%;
+        margin-bottom: 20px;
+    }
+  }
